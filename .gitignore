@@ -1,0 +1,9 @@
+.envrc
+node_modules
+contract-addresses.json
+#Buidler files
+cache
+artifacts
+build
+buidler.config.js
+deploy-bscmainnet.txt

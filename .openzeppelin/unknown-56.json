@@ -1,0 +1,649 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "900ae0303f28425ac35a079a9c7ee5d1f10a2cab0762a27d1bc0caf77cbe32c1": {
+      "address": "0x4406299BCe93aCcCbdeba3c93080a4C7C4F2f26c",
+      "txHash": "0x5a4e880bbb70aa8042a757e4738199d98313584212c6b41a857beda785743325",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\GSN\\Context.sol:37"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\ERC20UpgradeSafe.sol:37"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\ERC20UpgradeSafe.sol:39"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\ERC20UpgradeSafe.sol:41"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts\\ERC20UpgradeSafe.sol:43"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts\\ERC20UpgradeSafe.sol:44"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "contracts\\ERC20UpgradeSafe.sol:45"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)44_storage",
+            "src": "contracts\\ERC20UpgradeSafe.sol:317"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:18"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:78"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "monetaryPolicy",
+            "type": "t_address",
+            "src": "contracts\\StaysBASEToken.sol:53"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "_totalShares",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASEToken.sol:67"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASEToken.sol:68"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "_sharesPerBASE",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASEToken.sol:69"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "_shareBalances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\StaysBASEToken.sol:70"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "bannedUsers",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\StaysBASEToken.sol:72"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "_allowedBASE",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\StaysBASEToken.sol:76"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "transfersPaused",
+            "type": "t_bool",
+            "src": "contracts\\StaysBASEToken.sol:78"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "rebasesPaused",
+            "type": "t_bool",
+            "src": "contracts\\StaysBASEToken.sol:79"
+          },
+          {
+            "contract": "StaysBASEToken",
+            "label": "transferPauseExemptList",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\StaysBASEToken.sol:81"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_array(t_uint256)44_storage": {
+            "label": "uint256[44]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "1da0e4e4a1646ec2b237ff255ad8765d6b18d51739f03ae234cc9e5087df5387": {
+      "address": "0xC7bff403eE5A0D22B36895C1dCC0aF9D8CB88839",
+      "txHash": "0x90af88d0b4db64e99503d31950d443117a619c84e2c61c79e56e027f28e2d317",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\GSN\\Context.sol:37"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:18"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:78"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "StaysBASE",
+            "type": "t_contract(StaysBASEToken)3216",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:38"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "mcapOracle",
+            "type": "t_contract(IOracle)3231",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:41"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "tokenPriceOracle",
+            "type": "t_contract(IOracle)3231",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:45"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "deviationThreshold",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:51"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "rebaseLag",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:56"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "minRebaseTimeIntervalSec",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:59"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "lastRebaseTimestampSec",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:62"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "rebaseWindowOffsetSec",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:66"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "rebaseWindowLengthSec",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:69"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "epoch",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:72"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "orchestrator",
+            "type": "t_address",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:83"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "charityRecipients",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:85"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "charityExists",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:86"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "charityIndex",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:87"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "charityPercentOnExpansion",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:88"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "charityPercentOnContraction",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:89"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "totalCharityPercentOnExpansion",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:90"
+          },
+          {
+            "contract": "StaysBASETokenMonetaryPolicy",
+            "label": "totalCharityPercentOnContraction",
+            "type": "t_uint256",
+            "src": "contracts\\StaysBASETokenMonetaryPolicy.sol:91"
+          }
+        ],
+        "types": {
+          "t_contract(StaysBASEToken)3216": {
+            "label": "contract StaysBASEToken"
+          },
+          "t_contract(IOracle)3231": {
+            "label": "contract IOracle"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "65cae97e5c88ae4bb9050d3163a80e1073287be360d0ebf4fc065cd9fd9aab79": {
+      "address": "0x118279efCF2e62D89D8D954C9cC6D69d757a00B2",
+      "txHash": "0x8e26bd6fd02da3694f31c8e51e0b15f3738659ed93ff17b2466828338c7ae416",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\GSN\\Context.sol:37"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:18"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:78"
+          },
+          {
+            "contract": "StaysBASETokenOrchestrator",
+            "label": "transactionEnabled",
+            "type": "t_array(t_bool)dyn_storage",
+            "src": "contracts\\StaysBASETokenOrchestrator.sol:18"
+          },
+          {
+            "contract": "StaysBASETokenOrchestrator",
+            "label": "transactionDestination",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "contracts\\StaysBASETokenOrchestrator.sol:19"
+          },
+          {
+            "contract": "StaysBASETokenOrchestrator",
+            "label": "transactionData",
+            "type": "t_array(t_bytes_storage)dyn_storage",
+            "src": "contracts\\StaysBASETokenOrchestrator.sol:20"
+          },
+          {
+            "contract": "StaysBASETokenOrchestrator",
+            "label": "policy",
+            "type": "t_contract(StaysBASETokenMonetaryPolicy)3834",
+            "src": "contracts\\StaysBASETokenOrchestrator.sol:22"
+          }
+        ],
+        "types": {
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_array(t_bytes_storage)dyn_storage": {
+            "label": "bytes[]"
+          },
+          "t_contract(StaysBASETokenMonetaryPolicy)3834": {
+            "label": "contract StaysBASETokenMonetaryPolicy"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "2ffea60acb125fddfaa1ae54aab9b4b43cf37fca10078d8364d99d95cd1f7283": {
+      "address": "0x106cD8c1981D1a5c68e35f957F1daaAeFF1bD51b",
+      "txHash": "0x270224cefdc4bb2edded79e6ed9b8021f63233ef726ca766bc4cdc87b2a27e6d",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\GSN\\Context.sol:37"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:18"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:78"
+          },
+          {
+            "contract": "Cascade",
+            "label": "deposits_lpTokensDeposited",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\Cascade.sol:12"
+          },
+          {
+            "contract": "Cascade",
+            "label": "deposits_depositTimestamp",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\Cascade.sol:13"
+          },
+          {
+            "contract": "Cascade",
+            "label": "deposits_multiplierLevel",
+            "type": "t_mapping(t_address,t_uint8)",
+            "src": "contracts\\Cascade.sol:14"
+          },
+          {
+            "contract": "Cascade",
+            "label": "deposits_mostRecentBASEWithdrawal",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\Cascade.sol:15"
+          },
+          {
+            "contract": "Cascade",
+            "label": "totalDepositedLevel1",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:17"
+          },
+          {
+            "contract": "Cascade",
+            "label": "totalDepositedLevel2",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:18"
+          },
+          {
+            "contract": "Cascade",
+            "label": "totalDepositedLevel3",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:19"
+          },
+          {
+            "contract": "Cascade",
+            "label": "totalDepositSecondsLevel1",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:20"
+          },
+          {
+            "contract": "Cascade",
+            "label": "totalDepositSecondsLevel2",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:21"
+          },
+          {
+            "contract": "Cascade",
+            "label": "totalDepositSecondsLevel3",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:22"
+          },
+          {
+            "contract": "Cascade",
+            "label": "lastAccountingUpdateTimestamp",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:23"
+          },
+          {
+            "contract": "Cascade",
+            "label": "lpToken",
+            "type": "t_contract(IERC20)523",
+            "src": "contracts\\Cascade.sol:25"
+          },
+          {
+            "contract": "Cascade",
+            "label": "StaysBASE",
+            "type": "t_contract(StaysBASEToken)3216",
+            "src": "contracts\\Cascade.sol:26"
+          },
+          {
+            "contract": "Cascade",
+            "label": "minTimeBetweenWithdrawals",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:27"
+          },
+          {
+            "contract": "Cascade",
+            "label": "rewardsStartTimestamp",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:29"
+          },
+          {
+            "contract": "Cascade",
+            "label": "rewardsDuration",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:30"
+          },
+          {
+            "contract": "Cascade",
+            "label": "deposits_lastMultiplierUpgradeTimestamp",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\Cascade.sol:32"
+          },
+          {
+            "contract": "Cascade",
+            "label": "multiplierUpgradeTimeout",
+            "type": "t_uint256",
+            "src": "contracts\\Cascade.sol:33"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_uint8)": {
+            "label": "mapping(address => uint8)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_contract(IERC20)523": {
+            "label": "contract IERC20"
+          },
+          "t_contract(StaysBASEToken)3216": {
+            "label": "contract StaysBASEToken"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x56F7d81664C312e380390f0B062d1bA86A3FB64C",
+    "txHash": "0x25cec5d180608f69a481d3ba30ad0f789a315b3eebb65096cf392b42d8c10188"
+  }
+}
